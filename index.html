@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr" style="color-scheme: light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nyimbo za Wokovu – chants du salut, hors ligne</title>
+  <meta name="description" content="Nyimbo za Wokovu : 335 chants chrétiens en swahili sur Android, complets et hors ligne. Aucune donnée collectée.">
+  <link rel="icon" type="image/png" href="icon.png?v=4">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Georgia', serif;
+      background: #faf7ef;
+      color: #1e3a5f;
+      line-height: 1.8;
+    }
+
+    header {
+      background: #1e3a5f;
+      color: #d4a73c;
+      padding: 48px 20px 40px;
+      text-align: center;
+    }
+
+    header img {
+      width: 112px;
+      height: 112px;
+      border-radius: 24px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+    }
+
+    header h1 {
+      font-size: 2.2em;
+      letter-spacing: 1px;
+      margin-top: 16px;
+    }
+
+    header p {
+      margin-top: 4px;
+      font-size: 1.05em;
+      font-style: italic;
+      color: #e6c77e;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px 60px;
+    }
+
+    h2 {
+      font-size: 1.2em;
+      color: #b23a48;
+      margin-top: 36px;
+      margin-bottom: 10px;
+      border-left: 4px solid #d4a73c;
+      padding-left: 12px;
+    }
+
+    p {
+      margin-bottom: 12px;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+      margin: 8px 0 8px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 22px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      border: 2px solid #1e3a5f;
+    }
+
+    .button.primary {
+      background: #1e3a5f;
+      color: #faf7ef;
+    }
+
+    .button.secondary {
+      color: #1e3a5f;
+      background: transparent;
+    }
+
+    .button:hover { opacity: 0.88; }
+
+    ul.features {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 10px;
+    }
+
+    ul.features li {
+      background: #f2ead6;
+      border-radius: 10px;
+      padding: 10px 14px;
+    }
+
+    ul.features li strong {
+      color: #2e6f4e;
+      display: block;
+    }
+
+    a { color: #1e3a5f; }
+
+    .t-en { display: none; }
+    html.en .t-en { display: block; }
+    html.en span.t-en { display: inline; }
+    html.en .t-fr { display: none; }
+    html.en a.t-en { display: inline-block; }
+    html.en li.t-en { display: list-item; }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.85em;
+      color: #1e3a5f;
+      border-top: 1px solid #d4a73c;
+      background: #f2ead6;
+    }
+  </style>
+  <script>
+    // Une seule langue affichée : français si l'appareil est en français, anglais sinon
+    // (même règle que la page Sainte Bible).
+    (function () {
+      var lang = (navigator.languages && navigator.languages[0]) || navigator.language || 'fr';
+      if (!/^fr/i.test(lang)) {
+        document.documentElement.lang = 'en';
+        document.documentElement.className += ' en';
+        document.title = 'Nyimbo za Wokovu – salvation songs, offline';
+      }
+    })();
+  </script>
+</head>
+<body>
+<header>
+  <img src="icon.png?v=4" alt="Nyimbo za Wokovu">
+  <h1>Nyimbo za Wokovu</h1>
+  <p class="t-fr" lang="fr">Les chants du salut, partout, même hors ligne.</p>
+  <p class="t-en" lang="en">Salvation songs, anywhere, even offline.</p>
+</header>
+<main>
+  <div class="actions">
+    <a class="button primary" href="https://play.google.com/store/apps/details?id=com.nyimbozawokovu.app"><span class="t-fr" lang="fr">Télécharger sur Google Play</span><span class="t-en" lang="en">Get it on Google Play</span></a>
+    <a class="button secondary" href="privacy_policy.html"><span class="t-fr" lang="fr">Politique de confidentialité</span><span class="t-en" lang="en">Privacy Policy</span></a>
+  </div>
+
+  <section class="t-fr" lang="fr">
+    <h2>L'application</h2>
+    <p><strong>Nyimbo za Wokovu</strong> est une application Android gratuite qui rassemble 335 chants chrétiens en swahili. Tous les couplets sont inclus dans l'application : elle fonctionne sans connexion Internet. Ces chants enseignent le salut, la foi, l'espérance et la vie nouvelle en Christ.</p>
+
+    <h2>Fonctionnalités</h2>
+    <ul class="features">
+      <li><strong>335 chants</strong>Tous les couplets, avec l'auteur et la source — 1 265 strophes</li>
+      <li><strong>Recherche</strong>Par nom ou par numéro de chant</li>
+      <li><strong>Chant du jour</strong>Notification quotidienne ; appuyez pour ouvrir le chant</li>
+      <li><strong>21 groupes</strong>Chants classés par thème</li>
+      <li><strong>Favoris</strong>Conservés même après les mises à jour</li>
+      <li><strong>Hors ligne</strong>Sans publicité, aucune donnée collectée</li>
+    </ul>
+
+    <h2>Confidentialité</h2>
+    <p>L'application ne collecte aucune information personnelle et n'envoie rien à des serveurs tiers. Vos favoris, votre historique et vos réglages d'affichage restent sur votre appareil. Détails dans la <a href="privacy_policy.html">politique de confidentialité</a>.</p>
+
+    <h2>Contact</h2>
+    <p>Une question, une suggestion ? Écrivez à <strong>byakombe@aol.com</strong>.</p>
+  </section>
+
+  <section class="t-en" lang="en">
+    <h2>The app</h2>
+    <p><strong>Nyimbo za Wokovu</strong> is a free Android app with 335 Christian songs in Swahili. Every verse is included in the app: it works without an Internet connection. These songs teach salvation, faith, hope and new life in Christ.</p>
+
+    <h2>Features</h2>
+    <ul class="features">
+      <li><strong>335 songs</strong>Every verse, with author and source — 1,265 stanzas</li>
+      <li><strong>Search</strong>By title or by song number</li>
+      <li><strong>Song of the day</strong>Daily notification; tap to open the song</li>
+      <li><strong>21 groups</strong>Songs arranged by theme</li>
+      <li><strong>Favourites</strong>Kept even after updates</li>
+      <li><strong>Offline</strong>No ads, no data collected</li>
+    </ul>
+
+    <h2>Privacy</h2>
+    <p>The app collects no personal information and sends nothing to third-party servers. Your favourites, history and display settings stay on your device. Details in the <a href="privacy_policy.html">privacy policy</a>.</p>
+
+    <h2>Contact</h2>
+    <p>A question or a suggestion? Write to <strong>byakombe@aol.com</strong>.</p>
+  </section>
+</main>
+<footer>
+  &copy; 2026 Nyimbo za Wokovu – Donatien Byakombe. <span class="t-fr" lang="fr">Tous droits réservés.</span><span class="t-en" lang="en">All rights reserved.</span>
+</footer>
+</body>
+</html>
